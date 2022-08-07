@@ -1,0 +1,28 @@
+From efa0e3c86707a8390a0905375ce5884aae3de669 Mon Sep 17 00:00:00 2001
+From: Greg Donald <gdonald@gmail.com>
+Date: Sun, 7 Aug 2022 14:52:02 -0500
+Subject: [PATCH] Makefile: Add extra version
+
+Add extra version.
+
+Signed-off-by: Greg Donald
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index dc6295f91263..37e4122ca7cb 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 19
+ SUBLEVEL = 0
+-EXTRAVERSION =
++EXTRAVERSION = -eudyptula
+ NAME = Superb Owl
+
+ # *DOCUMENTATION*
+--
+2.30.2
+
